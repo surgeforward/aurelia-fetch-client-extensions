@@ -1,7 +1,8 @@
 # aurelia-fetch-client-extensions
 It's a very simple set of extension methods to the robust Aurelia fetch client. The goal was simply to encapsulate common functionality. 
 
-Examples: 
+Example: 
+```javascript
 import { inject } from 'aurelia-framework';
 import { HttpClient, json } from 'aurelia-fetch-client';
 import "DataHandlers/aurelia-fetch-client-extensions"
@@ -33,3 +34,4 @@ export class PeopleDataHandler {
     this.http.delete(id);
   }
 }
+```
